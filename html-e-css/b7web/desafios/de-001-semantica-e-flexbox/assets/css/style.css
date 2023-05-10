@@ -1,0 +1,286 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 990px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+nav ul,
+nav li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    padding: 15px;
+    color: #727272;
+    display: flex;
+    transition: all 0.7s;
+}
+
+nav .active a,
+nav a:hover {
+    background-color: #39aae1;
+    color: white;
+}
+
+#banner {
+    background-image: url("../images/img1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 87vh;
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.banner_headline {
+    color: white;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner_headline h1 {
+    padding: 0px;
+    margin: 0pc;
+    font-size: 70px;
+    text-shadow: 1px 1px 2px black;
+    max-width: 350px;
+}
+
+.banner_headline h2 {
+    padding: 0px;
+    margin: 0pc;
+    font-size: 22px;
+    text-shadow: 1px 1px 2px black;
+    max-width: 350px;
+    margin-top: 30px;
+}
+
+.banner_options {
+    color: white;
+    background-color: blue;
+    height: 210px;
+    display: flex;
+}
+
+.banner_1,
+.banner_2,
+.banner_3 {
+    padding: 20px;
+    flex: 1;
+}
+
+.banner_1 {
+    background-color: #39aae1;
+}
+
+.banner_2 {
+    background-color: #0079c7;
+}
+
+.banner_3 {
+    background-color: #2b4c99;
+}
+
+.options_title {
+    font-size: 20px;
+}
+
+.options_desc {
+    padding: 20px 0px;
+}
+
+.options_button {
+    background-color: transparent;
+    padding: 7px;
+    border: 1px solid white;
+    color: white;
+}
+
+.options_hours {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.089);
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.options_hours p {
+    padding-bottom: 9px;
+}
+
+.options_button {
+    cursor: pointer;
+    transition: all 0.7s;
+}
+
+.options_button:hover {
+    transform: scale(0.95);
+}
+
+#geral {
+    display: flex;
+    justify-content: center;
+    height: 900px;
+}
+
+#geral section {
+    flex: 2;
+}
+
+#geral aside {
+    flex: 1;
+}
+
+.widget_title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widget_title_text {
+    color: black;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.widget_title_bar {
+    margin-top: 10px;
+    width: 50px;
+    height: 2px;
+    background-color: #36a9e1;
+}
+
+.widget_body_1 {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.coluna {
+    flex-basis: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.quadrado {
+    width: 150px;
+    height: 150px;
+    background-color: #36a9e1;
+    margin: 10px 10px 10px 0px;
+    flex-grow: 1;
+}
+
+.widget_body_2 p, strong {
+    color: black;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.widget_body_2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.widget_body_2 a {
+    color: black;
+    text-decoration: underline;
+}
+
+.widget_body_list {
+    margin: 20px 0px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.281);
+}
+
+.widget_body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    flex: 1;
+    min-width: 300px;
+    margin-right: 25px;
+}
+
+article .news_data {
+    display: flex;
+}
+
+article .news_posted_at {
+    background-color: #3156a3;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+}
+
+article .news_comments {
+    background-color: #42b3e5;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    margin-left: 3px;
+}
+
+article .news_thumbnail {
+    margin-top: 30px;
+}
+
+article .news_thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+article .news_title {
+    margin: 25px 0;
+    font-size: 24px;
+    color: black;
+}
+
+article .news_resume {
+    font-size: 14px;
+    color: #5c5c5c;
+    line-height: 20px;
+    margin-bottom:30px;
+}
+
+.news_title:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: black;
+    margin-top: 215px;
+}
