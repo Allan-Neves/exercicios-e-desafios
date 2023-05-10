@@ -22,4 +22,4 @@ Nesses cursos, eu aprendi e estou aprendendo sobre os conceitos básicos e inter
 
 As minhas principais dificuldades são com o CSS, principalmente com o posicionamento dos elementos na página. Mas eu não desisto e procuro sempre praticar para superar esses desafios.
 
-    Eu espero que você goste do meu repositório e que ele possa te inspirar ou ajudar de alguma forma. Se você tiver alguma sugestão ou dúvida, por favor, entre em contato comigo ou deixe um comentário. 😊
+   Eu espero que você goste do meu repositório e que ele possa te inspirar ou ajudar de alguma forma. Se você tiver alguma sugestão ou dúvida, por favor, entre em contato comigo ou deixe um comentário. 😊
