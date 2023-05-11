@@ -4,7 +4,7 @@ Olá, eu me chamo Allan e este é o meu repositório onde eu compartilho os meus
 
 Neste repositório, você vai encontrar os arquivos das aulas dos cursos que eu estou fazendo ou já fiz. São eles:
 
-- git-e-github: contém os arquivos das aulas do meu curso de git e github que já concluí.
+- git-github-e-markdown: contém os arquivos das aulas do meu curso de git e github que já concluí.
 
     + Curso de [Git e Github](https://www.cursoemvideo.com/curso/curso-de-git-e-github/) do Gustavo Guanabara (Curso em Vídeo)
 
