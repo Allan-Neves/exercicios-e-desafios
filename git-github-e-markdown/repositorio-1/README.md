@@ -33,7 +33,8 @@ Lista de tarefas
 - [ ] Reunião com o cliente
 - [ ] Receber pagamento
 
-![zeuz redondo](https://github.com/Allan-Carlos/exercicios-e-desafios/assets/89498717/84225ffe-6cc8-4106-a332-b003f127044e)
+![wallpaper-anime-1](https://github.com/Allan-Carlos/exercicios-e-desafios/assets/89498717/59521d7f-de3d-480e-9597-f1a809949f73)
+
 
 [Clique aqui](https://github.com/Allan-Carlos) para acessar meu Github!
 
