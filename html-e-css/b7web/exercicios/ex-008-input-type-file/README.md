@@ -3,7 +3,7 @@
 Neste exercício, vamos nos familiarizar com o elemento `<input>` do tipo "file" em formulários HTML. O input type file permite que os usuários selecionem e enviem arquivos a partir de seus dispositivos para o servidor. Durante o curso, foram abordados os conceitos fundamentais de como utilizar o input type file.
 
 ## Conteúdo
-Nesta pasta, você encontrará um arquivo dedicado às validações nativas em formulários HTML5. Este arquivo fornece exemplos práticos para facilitar o entendimento.
+Nesta pasta, você encontrará um arquivo dedicado ao input type file. Este arquivo fornece exemplos práticos para facilitar o entendimento.
 
 Os seguintes tópicos foram abordados:
 

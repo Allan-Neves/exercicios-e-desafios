@@ -4,7 +4,7 @@ Neste exercício, vamos explorar o uso do elemento `<input>` com o atributo type
 
 ## Conteúdo
 
-Nesta pasta, você encontrará um arquivo dedicado às validações nativas em formulários HTML5. Este arquivo fornece exemplos práticos para facilitar o entendimento.
+Nesta pasta, você encontrará um arquivo dedicado ao input type hidden. Este arquivo fornece exemplos práticos para facilitar o entendimento.
 
 Os seguintes tópicos foram abordados:
 
