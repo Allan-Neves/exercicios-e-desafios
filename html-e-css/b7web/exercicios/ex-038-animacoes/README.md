@@ -8,7 +8,7 @@ Nesta pasta, você encontrará um arquivo dedicado ao estudo e aplicação de an
 
 Os seguintes tópicos serão abordados:
 
-- Introdução às animações em CSS: Aprenda sobre a importância das animações e como elas podem melhorar a experiência do usuário em suas páginas.
+- Introdução às animações em CSS: Aprenda sobre a importância das animações e como elas podem melhorar a experiência do usuário em minhas páginas.
 
 - Utilizando a propriedade @keyframes: Explore exemplos práticos de como utilizar a propriedade @keyframes do CSS para definir os estágios de uma animação.
 

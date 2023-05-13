@@ -8,7 +8,7 @@ Nesta pasta, você encontrará um arquivo dedicado ao estudo e aplicação do Wo
 
 Os seguintes tópicos serão abordados:
 
-- Introdução ao Word Wrap: Aprenda sobre a importância do Word Wrap e como ele pode melhorar a legibilidade de textos longos em suas páginas.
+- Introdução ao Word Wrap: Aprenda sobre a importância do Word Wrap e como ele pode melhorar a legibilidade de textos longos em minhas páginas.
 
 - Utilizando a propriedade word-wrap: Explore exemplos práticos de como utilizar a propriedade word-wrap do CSS para controlar a quebra de linha de textos longos.
 
@@ -18,7 +18,7 @@ Os seguintes tópicos serão abordados:
 
 - Controlando o Word Wrap com overflow-wrap: Explore o uso da propriedade overflow-wrap como uma alternativa à propriedade word-wrap para controlar a quebra de linha.
 
-- Compatibilidade e boas práticas: Saiba mais sobre a compatibilidade do Word Wrap em diferentes navegadores e dispositivos, bem como boas práticas para lidar com textos longos em suas páginas.
+- Compatibilidade e boas práticas: Saiba mais sobre a compatibilidade do Word Wrap em diferentes navegadores e dispositivos, bem como boas práticas para lidar com textos longos em minhas páginas.
 
 ---
 

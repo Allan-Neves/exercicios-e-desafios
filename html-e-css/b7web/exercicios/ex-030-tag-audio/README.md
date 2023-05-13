@@ -1,6 +1,6 @@
 # Exercício - Tag `<audio>`
 
-Neste exercício, vamos explorar o uso da tag `<audio>` no HTML. A tag `<audio>` permite incorporar e reproduzir arquivos de áudio em suas páginas web, proporcionando uma experiência sonora aos usuários.
+Neste exercício, vamos explorar o uso da tag `<audio>` no HTML. A tag `<audio>` permite incorporar e reproduzir arquivos de áudio em minhas páginas web, proporcionando uma experiência sonora aos usuários.
 
 ## Conteúdo
 
@@ -22,4 +22,4 @@ Os seguintes tópicos serão abordados:
 
 ## Objetivo
 
-O objetivo deste exercício é aprender sobre a tag `<audio>` no HTML e utilizá-la para incorporar e controlar arquivos de áudio em suas páginas web. Ao final do exercício, eu obtive conhecimento sobre como utilizar essa tag para proporcionar uma experiência sonora interativa aos usuários.
+O objetivo deste exercício é aprender sobre a tag `<audio>` no HTML e utilizá-la para incorporar e controlar arquivos de áudio em minhas páginas web. Ao final do exercício, eu obtive conhecimento sobre como utilizar essa tag para proporcionar uma experiência sonora interativa aos usuários.

@@ -22,4 +22,4 @@ Os seguintes tópicos serão abordados:
 
 ## Objetivo
 
-O objetivo deste exercício é aprender sobre as tags `<form>` e `<input>` no HTML e aplicá-las para criar formulários interativos em suas páginas. Ao final do exercício, eu obtive conhecimento sobre como utilizar essas tags para capturar e processar informações dos usuários de forma eficiente e amigável.
+O objetivo deste exercício é aprender sobre as tags `<form>` e `<input>` no HTML e aplicá-las para criar formulários interativos em minhas páginas. Ao final do exercício, eu obtive conhecimento sobre como utilizar essas tags para capturar e processar informações dos usuários de forma eficiente e amigável.

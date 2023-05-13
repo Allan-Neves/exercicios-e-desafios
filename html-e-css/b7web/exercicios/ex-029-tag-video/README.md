@@ -1,6 +1,6 @@
 # Exercício - Tag `<video>`
 
-Neste exercício, vamos explorar o uso da tag `<video>` no HTML. A tag `<video>` permite incorporar e reproduzir vídeos em suas páginas web, oferecendo uma maneira poderosa de apresentar conteúdo audiovisual aos usuários.
+Neste exercício, vamos explorar o uso da tag `<video>` no HTML. A tag `<video>` permite incorporar e reproduzir vídeos em minhas páginas web, oferecendo uma maneira poderosa de apresentar conteúdo audiovisual aos usuários.
 
 ## Conteúdo
 
@@ -22,4 +22,4 @@ Os seguintes tópicos serão abordados:
 
 ## Objetivo
 
-O objetivo deste exercício é aprender sobre a tag `<video>` no HTML e utilizá-la para incorporar e controlar vídeos em suas páginas web. Ao final do exercício, eu obtive conhecimento sobre como utilizar essa tag para apresentar conteúdo audiovisual de forma dinâmica e envolvente.
+O objetivo deste exercício é aprender sobre a tag `<video>` no HTML e utilizá-la para incorporar e controlar vídeos em minhas páginas web. Ao final do exercício, eu obtive conhecimento sobre como utilizar essa tag para apresentar conteúdo audiovisual de forma dinâmica e envolvente.

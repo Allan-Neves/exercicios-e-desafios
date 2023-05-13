@@ -22,4 +22,4 @@ Os seguintes tópicos serão abordados:
 
 ## Objetivo
 
-O objetivo deste exercício é aprender sobre as tags semânticas `<header>`, `<footer>` e `<nav>` no HTML e aplicá-las para criar uma estrutura semântica em suas páginas. Ao final do exercício, eu obtive conhecimento sobre como utilizar essas tags para estruturar e descrever o conteúdo de forma clara e organizada.
+O objetivo deste exercício é aprender sobre as tags semânticas `<header>`, `<footer>` e `<nav>` no HTML e aplicá-las para criar uma estrutura semântica em minhas páginas. Ao final do exercício, eu obtive conhecimento sobre como utilizar essas tags para estruturar e descrever o conteúdo de forma clara e organizada.

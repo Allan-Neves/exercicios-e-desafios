@@ -8,7 +8,7 @@ Nesta pasta, você encontrará um arquivo dedicado ao estudo e aplicação de tr
 
 Os seguintes tópicos serão abordados:
 
-- Introdução às transições em CSS: Aprenda sobre a importância das transições e como elas podem melhorar a interatividade em suas páginas.
+- Introdução às transições em CSS: Aprenda sobre a importância das transições e como elas podem melhorar a interatividade em minhas páginas.
 
 - Utilizando a propriedade transition: Explore exemplos práticos de como utilizar a propriedade transition do CSS para definir a transição suave entre os estados de um elemento.
 
