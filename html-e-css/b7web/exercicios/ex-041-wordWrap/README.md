@@ -24,4 +24,4 @@ Os seguintes tópicos serão abordados:
 
 ## Objetivo
 
-O objetivo deste exercício é aprender a utilizar o recurso Word Wrap em CSS para lidar com textos longos de forma eficiente e legível. Ao final do exercício, eu obtive conhecimento sobre como utilizar a propriedade word-wrap e a propriedade overflow-wrap para controlar a quebra de linha de textos longos em meus elementos HTML.
+O objetivo deste exercício é aprender a utilizar o recurso Word Wrap em CSS para lidar com textos longos de forma eficiente e legível. Ao final do exercício, eu obtive conhecimento sobre como utilizar a propriedade word-wrap junto da propriedade overflow-wrap para controlar a quebra de linha de textos longos em meus elementos HTML.
