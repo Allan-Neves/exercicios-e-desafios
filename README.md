@@ -6,25 +6,25 @@ Neste repositório, você vai encontrar os arquivos das aulas dos cursos que eu 
 
 - git-github-e-markdown: contém os arquivos das aulas do meu curso de git e github que já concluí.
 
-    + Curso de [Git e Github](https://www.cursoemvideo.com/curso/curso-de-git-e-github/) do Gustavo Guanabara (Curso em Vídeo)
+  - Curso de [Git e Github](https://www.cursoemvideo.com/curso/curso-de-git-e-github/) do Gustavo Guanabara (Curso em Vídeo)
 
 - html-e-css: contém os arquivos das aulas dos meus cursos de html e css que estou fazendo ou já fiz. Dentro desta pasta, há subpastas para cada curso:
 
-    + `b7web:` curso de HTML e CSS da plataforma [B7Web](https://alunos.b7web.com.br/curso/html5-e-css3/).
+  - `b7web:` curso de HTML e CSS da plataforma [B7Web](https://alunos.b7web.com.br/curso/html5-e-css3/).
 
-    + `curso-em-video:` curso HTML5 E CSS3 do Gustavo Guanabara (Curso em Vídeo). [Módulo 1](https://www.cursoemvideo.com/curso/html5-css3-modulo1/), [módulo 2](https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/), [módulo 3](https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-3-de-5-40-horas/)
+  - `curso-em-video:` curso HTML5 E CSS3 do Gustavo Guanabara (Curso em Vídeo). [Módulo 1](https://www.cursoemvideo.com/curso/html5-css3-modulo1/), [módulo 2](https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/), [módulo 3](https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-3-de-5-40-horas/)
 
-    + `programadorbr:` contém os arquivos das aulas do curso [Programador BR](https://programadorbr.com/).
+  - `programadorbr:` contém os arquivos das aulas do curso [Programador BR](https://programadorbr.com/).
 
 - javascript: contém os arquivos das aulas dos meus cursos de JavaScript que estou fazendo ou já fiz. Dentro desta pasta, há subpastas para cada curso:
 
-    + `b7web:` curso de JavaScript da plataforma [B7Web](https://alunos.b7web.com.br/curso/javascript/).
+  - `b7web:` curso de JavaScript da plataforma [B7Web](https://alunos.b7web.com.br/curso/javascript/).
 
-    + `curso-em-video:` curso de JavaScript do Gustavo Guanabara [Curso em Vídeo](https://www.cursoemvideo.com/curso/javascript/).
+  - `curso-em-video:` curso de JavaScript do Gustavo Guanabara [Curso em Vídeo](https://www.cursoemvideo.com/curso/javascript/).
 
-    + `programadorbr:` contém os arquivos das aulas do curso [Programador BR](https://programadorbr.com/).
+  - `programadorbr:` contém os arquivos das aulas do curso [Programador BR](https://programadorbr.com/).
 
-    + `outros:` contém os arquivos de exercícios que eu encontro no YouTube ou que tenho alguma dúvida específica e vejo vídeo-aulas avulsas.
+  - `outros:` contém os arquivos de exercícios que eu encontro no YouTube ou que tenho alguma dúvida específica e vejo vídeo-aulas avulsas.
 
 Nesses cursos, eu aprendi e estou aprendendo sobre os conceitos básicos e intermediários de `git, github, html e css, como criar páginas web responsivas e dinâmicas, como usar o git para versionar e gerenciar os meus projetos, como usar o github para hospedar e compartilhar os meus códigos, e agora estou iniciando mues aprendizados em JavaScript`, entre outras coisas.
 
