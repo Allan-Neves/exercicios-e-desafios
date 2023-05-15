@@ -1,6 +1,6 @@
 # Meu repositório de estudos sobre git, github, html e css
 
-Olá, eu me chamo Allan e este é o meu repositório onde eu compartilho os meus estudos sobre git, github, html e css. Eu sou um estudante front-end e estou sempre buscando aprender e aprimorar as minhas habilidades nessas tecnologias.
+Olá, eu me chamo Allan e este é o meu repositório onde eu compartilho os meus estudos sobre os meus estudos. Eu sou um estudante front-end e estou sempre buscando aprender e aprimorar as minhas habilidades nessas tecnologias.
 
 Neste repositório, você vai encontrar os arquivos das aulas dos cursos que eu estou fazendo ou já fiz. São eles:
 
@@ -16,9 +16,17 @@ Neste repositório, você vai encontrar os arquivos das aulas dos cursos que eu 
 
     + `programadorbr:` contém os arquivos das aulas do curso [Programador BR](https://programadorbr.com/).
 
+- javascript: contém os arquivos das aulas dos meus cursos de JavaScript que estou fazendo ou já fiz. Dentro desta pasta, há subpastas para cada curso:
+
+    + `b7web:` curso de JavaScript da plataforma [B7Web](https://alunos.b7web.com.br/curso/javascript/).
+
+    + `curso-em-video:` curso de JavaScript do Gustavo Guanabara [Curso em Vídeo](https://www.cursoemvideo.com/curso/javascript/).
+
+    + `programadorbr:` contém os arquivos das aulas do curso [Programador BR](https://programadorbr.com/).
+
     + `outros:` contém os arquivos de exercícios que eu encontro no YouTube ou que tenho alguma dúvida específica e vejo vídeo-aulas avulsas.
 
-Nesses cursos, eu aprendi e estou aprendendo sobre os conceitos básicos e intermediários de `git, github, html e css, como criar páginas web responsivas e dinâmicas, como usar o git para versionar e gerenciar os meus projetos, como usar o github para hospedar e compartilhar os meus códigos`, entre outras coisas.
+Nesses cursos, eu aprendi e estou aprendendo sobre os conceitos básicos e intermediários de `git, github, html e css, como criar páginas web responsivas e dinâmicas, como usar o git para versionar e gerenciar os meus projetos, como usar o github para hospedar e compartilhar os meus códigos, e agora estou iniciando mues aprendizados em JavaScript`, entre outras coisas.
 
 As minhas principais dificuldades são com o CSS, principalmente com o posicionamento dos elementos na página. Mas eu não desisto e procuro sempre praticar para superar esses desafios.
 
