@@ -1,0 +1,32 @@
+Passar o queijo no pão
+-----------------------
+
+Se o queijo estiver fechado então
+    abrir o queijo
+fim
+
+Passar o queijo no pão
+-----------------------
+
+Se o queijo estiver fechado então
+    abrir o queijo
+fim
+
+Pegar a faca
+Cortar um pedaço do queijo
+Abrir o pão
+
+Passar o queijo no pão
+-----------------------
+
+Se o queijo estiver fechado então
+    abrir o queijo
+fim
+
+Pegar a faca
+Cortar um pedaço do queijo com a faca
+Abrir o pão com a faca
+
+Passar o queijo na parte interna do pão com a faca
+Soltar a faca e comer o pão
+-----------------------
