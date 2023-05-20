@@ -1,5 +1,5 @@
 var idade = 25;
-console.log("Idade:", idade)
+console.log("Idade:", idade);
 
 if (idade >= 35) {
     console.log("Você pode comprar conosco!");
