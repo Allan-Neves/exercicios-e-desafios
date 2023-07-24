@@ -14,7 +14,7 @@ Neste repositório, você vai encontrar os arquivos das aulas dos cursos que eu 
 
   - `curso-em-video:` curso HTML5 E CSS3 do Gustavo Guanabara (Curso em Vídeo). [Módulo 1](https://www.cursoemvideo.com/curso/html5-css3-modulo1/), [módulo 2](https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/), [módulo 3](https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-3-de-5-40-horas/)
 
-  - `programadorbr:` contém os arquivos das aulas do curso [Programador BR](https://programadorbr.com/).
+  - `programador-br:` contém os arquivos das aulas do curso [Programador BR](https://programadorbr.com/).
 
 - javascript: contém os arquivos das aulas dos meus cursos de JavaScript que estou fazendo ou já fiz. Dentro desta pasta, há subpastas para cada curso:
 
@@ -22,7 +22,7 @@ Neste repositório, você vai encontrar os arquivos das aulas dos cursos que eu 
 
   - `curso-em-video:` curso de JavaScript do Gustavo Guanabara [Curso em Vídeo](https://www.cursoemvideo.com/curso/javascript/).
 
-  - `programadorbr:` contém os arquivos das aulas do curso [Programador BR](https://programadorbr.com/).
+  - `programador-br:` contém os arquivos das aulas do curso [Programador BR](https://programadorbr.com/).
 
   - `outros:` contém os arquivos de exercícios que eu encontro no YouTube ou que tenho alguma dúvida específica e vejo vídeo-aulas avulsas.
 
