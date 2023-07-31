@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM - Somando números</title>
+
+    <style>
+        body {
+            font: normal 18pt Arial;
+        }
+        
+        .div-0 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .input-nmr {
+            height: 25px;
+            width: 150px;
+        }
+
+        .div-2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .botao {
+            margin: 10px;
+            padding: 7px 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div-0">
+        <h1>Somando valores</h1>
+        <div class="div-1">
+            <input type="number" name="txtn1" id="txtn1" class="input-nmr"> +
+            <input type="number" name="txtn2" id="txtn2" class="input-nmr">
+            <input type="button" value="Somar" onclick="somar()" class="botao">
+        </div>
+
+        <div class="div-2">
+            <div id="resultado">Resultado</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
