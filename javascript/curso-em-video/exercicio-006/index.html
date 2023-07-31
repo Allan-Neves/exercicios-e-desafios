@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,20 +8,39 @@
 
     <style>
         body {
-            background-color: #20b9c4;
-            color: #fff;
             font: normal 18pt Arial;
+        }
+
+        h1 {
+            text-align: center;
         }
     </style>
 </head>
+
 <body>
-    <h1>Iníciando estudos com DOM</h1>
+    <h1>Iníciando estudos com o DOM</h1>
         <p>Aqui vai o resultado</p>
         <p>Aprendendo a usar o <strong>dom</strong> em JavaScript</p>
-    <div>Clique em mim</div>
+    <div id="msg" class="msg" name="msg">Clique em mim</div>
+<br>
 
     <script>
-        
+        var corpo = window.document.body;
+        var p1 = window.document.getElementsByTagName('p')[0];
+        var p2 = window.document.getElementsByTagName('p')[1];
+        // var div = window.document.getElementById('msg');
+        // var div = window.document.getElementsByName('msg')[0];
+        // var div = window.document.getElementsByClassName('msg')[0];
+        var div = window.document.querySelector('div#msg'); // ou div.msg
+
+        corpo.style.background = '#20b9c4';
+        corpo.style.color = '#fff';
+        div.style.background = '#889131';
+        div.innerText = 'Carregando...'
+
+        window.document.write(`O paragrafo um está escrito assim: <strong>${p1.innerText}</strong> <br><br>`);
+        window.document.write(`O paragrafo dois agora está escrito assim: ${p2.innerHTML}`);
     </script>
 </body>
+
 </html>
