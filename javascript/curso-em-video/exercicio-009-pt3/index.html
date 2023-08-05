@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detran</title>
+
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .input-vel {
+            width: 50px;
+        }
+
+        .btn-enviar {
+            margin-top: 10px;
+            padding: 6px 25px;
+        }
+
+        #calc-vel {
+            margin-top: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Sistema de multas.</h1>
+            Qual a velocidade do seu carro?
+            <input type="number" name="velocidade" id="velocidade" class="input-vel"> Km/h <br>
+            <input type="button" value="Verificar" class="btn-enviar" onclick="calcular()">
+
+            <p id="calc-vel"></p>
+            <p id="resultado"></p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
