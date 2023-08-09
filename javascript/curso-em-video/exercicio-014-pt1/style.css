@@ -23,8 +23,6 @@ footer {
 }
 
 section {
-    text-align: center;
-    margin: 25px 10px 0 10px;
     width: 500px;
     padding: 15px;
     border-radius: 10px;
@@ -35,11 +33,6 @@ section {
 
 section:hover {
     transform: scale(1.01);
-}
-
-#msg {
-    padding: 13px 0 18px 0;
-    font-weight: bold;
 }
 
 footer {
