@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Super tabuada!</title>
+</head>
+
+<body>
+    <header>
+        <h1>Tabuada</h1>
+    </header>
+
+    <div class="flex">
+        <section>
+            <div id=""> <p>
+                Número:
+                <input type="number" id="txt-numero">
+                <input type="submit" value="Gerar tabuada" onclick="tabuada()">
+                <input type="submit" value="Resetar" onclick="resetar()">
+            </p>
+            </div>
+            <div id="resultado">
+                <select id="select-tabuada" size="15">
+                    <option id="option">Digite um número acima!</option>
+                </select>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; CursoemVídeo</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

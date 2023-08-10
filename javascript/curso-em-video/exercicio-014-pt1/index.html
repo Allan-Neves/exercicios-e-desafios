@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Vamos contar</title>
+    <title>Mega Hyper Contador Plus</title>
 </head>
 
 <body>
@@ -15,8 +15,16 @@
 
     <div class="flex">
         <section>
-            <div id=""></div>
-            <div id=""></div>
+            <div id="dados">
+                <p>Início: <input type="number" name="inicio" id="txt-inicio"></p>
+                <p>Fim: <input type="number" name="fim" id="txt-fim"></p>
+                <p>Passo: <input type="number" name="passo" id="txt-passo"></p>
+                <p>
+                    <input type="submit" value="Contar" onclick="contar()" class="botao-contar">
+                    <input type="reset" value="Resetar" onclick="resetar()" class="botao-resetar">
+                </p>
+            </div>
+            <div id="resultado">Preparando a contagem...</div>
         </section>
     </div>
 

@@ -34,23 +34,32 @@ section:hover {
     transform: scale(1.01);
 }
 
-#dados p {
-    padding: 6px 0;
-}
-
 #resultado {
     margin-top: 10px;
 }
 
-input[type="number"] {
-    width: 70px;
-    height: 25px;
+#txt-numero {
+    width: 60px;
+    padding: 5px 0;
 }
 
-.botao-contar, .botao-resetar {
-    padding: 7px 15px;
+input[type="submit"] {
+    padding: 7px;
     border-radius: 5px;
     border: 1px solid #000;
+}
+
+#select-tabuada {
+    padding: 10px 10px 0 10px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    overflow: auto;
+}
+
+#select-tabuada option {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.459);
+    margin: 7px 0;
 }
 
 footer {
