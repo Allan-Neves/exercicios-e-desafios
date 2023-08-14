@@ -22,7 +22,6 @@ footer {
 }
 
 section {
-    flex-direction: column;
     width: 500px;
     padding: 15px;
     border-radius: 10px;
@@ -35,32 +34,19 @@ section:hover {
     transform: scale(1.01);
 }
 
-#txt-numero {
-    width: 60px;
-    padding: 5px 0;
-    margin-right: 5px;
+input[type="number"] {
+    width: 70px;
+    height: 25px;
 }
 
 input[type="submit"] {
-    padding: 7px;
+    padding: 7px 15px;
     border-radius: 5px;
     border: 1px solid #000;
 }
 
-#select-tabuada {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.322);
-    padding: 10px 10px 0 10px;
-    margin-top: 20px;
-    min-width: 174px;
-    width: auto;
-    height: auto;
-    text-align: center;
-    overflow: auto;
-}
-
-#select-tabuada option {
-    border-bottom: 1px solid rgba(128, 128, 128, 0.459);
-    margin: 7px 0;
+select {
+    width: 150px;
 }
 
 footer {

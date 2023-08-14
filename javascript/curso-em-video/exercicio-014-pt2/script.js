@@ -3,16 +3,15 @@ function tabuada() {
     var select = document.getElementById(`select-tabuada`);
 
     if (numero.value.length == 0) {
-        option.innerHTML = `[ERRO] Por favor, digite um número.`
+        option.innerHTML = `[ERRO] Por favor, digite um número!`
     } else {
         var num = Number(numero.value);
         var contador = 1;
-        select.innerHTML = '';
+        select.innerHTML = ``;
 
         while (contador <= 10) {
-            var item = document.createElement('option');
+            var item = document.createElement(`option`);
             item.text = `${num} X ${contador} = ${num*contador}`
-            item.value = `select${contador}`
             select.appendChild(item)
             contador++
         }
