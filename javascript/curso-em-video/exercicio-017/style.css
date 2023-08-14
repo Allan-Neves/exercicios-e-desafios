@@ -39,14 +39,26 @@ input[type="number"] {
     height: 25px;
 }
 
-input[type="submit"] {
+#btn-adicionar, #btn-finalizar {
     padding: 7px 15px;
     border-radius: 5px;
     border: 1px solid #000;
 }
 
+#btn-adicionar {
+    margin-bottom: 7px;
+}
+
+#btn-finalizar {
+    margin-top: 7px;
+}
+
 select {
     width: 150px;
+}
+
+#resultado p {
+    margin: 15px 0;
 }
 
 footer {
