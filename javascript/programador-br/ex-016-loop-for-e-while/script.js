@@ -1,6 +1,6 @@
 var numero = Math.random() * 100;
 
-// for (var i = 0; i < numero; i++) {
+// for (var vez = 0; vez < numero; vez++) {
 //     console.log("Executando o for, pela " + i + " vez");
 // }
 

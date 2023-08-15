@@ -6,28 +6,24 @@ var conceito = "";
 
 if (media >= 8) {
     conceito = "ótimo";
-}
-
-else if (media >= 6.5) {
+} else if (media >= 6.5) {
     conceito = "bom";
-}
-
-else {
+} else {
     conceito = "regular";
 }
 
 // conceito = "mais ou menos";
 
-console.log(media);
+console.log(`Sua média foi de ${media}`);
 console.log("Conceito:", conceito);
 
 switch (conceito) {
     case "ótimo":
-        console.log("Parabéns, você é um ótimo aluno!");
+        console.log("Parabéns, você é um(a) ótimo(a) aluno(a)!");
         break;
 
     case "bom":
-        console.log("Você está quase perfeito!");
+        console.log("Você está quase perfeito(a)!");
         break;
 
     case "regular":

@@ -1,6 +1,6 @@
 // && e
 // || ou
-// Negativo
+// ! Negação
 
 var idade = 23;
 
@@ -16,11 +16,11 @@ console.log("Entre 20 e 30", entre);
 
 console.log("==================");
 
-var idade_2 = 6;
+var idade_2 = 16;
 
 var menor10 = idade_2 <= 10;
 var maior65 = idade_2 >= 65;
-var alimento = false;
+var alimento = true;
 
 var gratuidade = menor10 || maior65 || alimento; 
 
