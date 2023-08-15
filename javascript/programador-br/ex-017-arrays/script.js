@@ -5,15 +5,15 @@ var alunos = ["Allan", "José", "Camila", "Pedro", "Joana", "Maria", "Rose", "Jo
 // console.log(alunos);
 
 for (var aluno of alunos) {
-    console.log(aluno)
+    console.log(aluno);
 }
 
 // for (var aluno in alunos) {
-//     console.log(alunos[aluno])
+//     console.log(alunos[aluno]);
 // }
 
 // for (var aluno = 0; aluno < alunos.length; aluno++) {
-//     console.log(alunos[aluno])
+//     console.log(alunos[aluno]);
 // }
 
  

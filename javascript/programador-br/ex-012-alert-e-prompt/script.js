@@ -12,6 +12,6 @@
 var nomeSobrenome = prompt("Qual o seu nome e sobrenome?");
 var idade = parseInt(prompt("Qual a sua idade?"));
 var dobro = idade + idade;
-var corFav = prompt("Qual a sua cor favorita?")
+var corFav = prompt("Qual a sua cor favorita?");
 
-alert("Olá, " + nomeSobrenome + ", você tem " + idade + " anos de idade, uau! Sabia que o dobro da sua idade é igual a " + dobro + ", incrível né? Eu também fiquei sabendo que sua cor favorita é " + corFav + " essa cor deve ser linda!")
+alert("Olá, " + nomeSobrenome + ", você tem " + idade + " anos de idade, uau! Sabia que o dobro da sua idade é igual a " + dobro + ", incrível né? Eu também fiquei sabendo que sua cor favorita é " + corFav + " essa cor deve ser linda!");

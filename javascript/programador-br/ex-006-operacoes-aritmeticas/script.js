@@ -1,11 +1,11 @@
 /*
-, Adição
+ + Adição
  - Subtração
  * Multiplicação
  / Divisão
  % Módulo
  ** Exponenciação
-,+ Incremento
+ ++ Incremento
  -- Decremento
 */
 
@@ -51,5 +51,5 @@ var subtrair_1 = subtrair_0 * 0.2;
 var subtrair_2 = subtrair_0 - subtrair_1;
 console.log(subtrair_2, " | Subtração 2");
 
-var Multiplicação_2 =(2/3) * (9/5);
+var Multiplicação_2 =(2/3)  (9/5*);
 console.log(Multiplicação_2, " | Multiplicação 2");

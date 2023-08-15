@@ -14,7 +14,7 @@ console.log("Maior que 20", maior20);
 console.log("Menor que 30", menor30);
 console.log("Entre 20 e 30", entre);
 
-console.log("==================")
+console.log("==================");
 
 var idade_2 = 6;
 
@@ -30,7 +30,7 @@ console.log("Maior que 65", maior65);
 console.log("Trouxe alimento?", alimento);
 console.log("Tem direito a gratuidade?", gratuidade);
 
-console.log("==================")
+console.log("==================");
 
 var idade_3 = 230;
 
