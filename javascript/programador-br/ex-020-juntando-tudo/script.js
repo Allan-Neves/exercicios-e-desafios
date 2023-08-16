@@ -1,8 +1,8 @@
-// Nome do aluno - nota 1 - nota 2 - média - Aprovado/Reprovado
+// Nome do aluno - nota1 - nota 2 - media - resultado
 
-var alunos = ["Allan", "Igor", "Joana", "Maria"];
-var notasA = [9.0, 6.5, 7.8, 4.3];
-var notasB = [5.5, 8.0, 5.0, 9.4];
+var alunos = ["José", "Maria", "Pedro", "Marta",];
+var notasA = [9.0, 3.0, 7.0, 5,0];
+var notasB = [4.0, 5.0, 10.0, 3.0];
 
 function media(n1, n2) {
     return (n1 + n2) / 2;
@@ -17,11 +17,11 @@ function resultado(media) {
 }
 
 for (var index in alunos) {
-
+    
     var aluno = alunos[index];
     var nota1 = notasA[index];
     var nota2 = notasB[index];
     var m = media(nota1, nota2);
 
-    console.log(aluno + " - " + nota1 + " - " + nota2 + " - " + m + " - " + resultado(m));
+    console.log(`${aluno} - ${nota1} - ${nota2} - ${m} - ${resultado(m)}`)
 }

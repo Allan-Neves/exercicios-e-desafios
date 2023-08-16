@@ -15,5 +15,3 @@ for (var aluno of alunos) {
 // for (var aluno = 0; aluno < alunos.length; aluno++) {
 //     console.log(alunos[aluno]);
 // }
-
- 
