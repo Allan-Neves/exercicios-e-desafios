@@ -30,6 +30,4 @@ Neste repositório, você vai encontrar os arquivos das aulas dos cursos que eu 
 
 Nesses cursos, eu aprendi e estou aprendendo sobre os conceitos básicos e intermediários de `git, github, html e css, como criar páginas web responsivas e dinâmicas, como usar o git para versionar e gerenciar os meus projetos, como usar o github para hospedar e compartilhar os meus códigos, entre outras coisas. Agora estou iniciando meus aprendizados em JavaScript`
 
-As minhas principais dificuldades são com o CSS, principalmente com o posicionamento dos elementos na página. Mas eu não desisto e procuro sempre praticar para superar esses desafios.
-
    Eu espero que você goste do meu repositório e que ele possa te inspirar ou ajudar de alguma forma. Se você tiver alguma sugestão ou dúvida, por favor, entre em contato comigo ou deixe um comentário. 😊
