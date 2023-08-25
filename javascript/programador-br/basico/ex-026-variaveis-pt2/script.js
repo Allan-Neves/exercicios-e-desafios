@@ -4,9 +4,6 @@ const numero3 = {};
 
 numero2 = 7;
 
-
-
-
 // numero3.nome = "Allan";
 // numero3.push(7);
 
