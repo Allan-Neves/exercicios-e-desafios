@@ -10,18 +10,30 @@
 </head>
 
 <body>
-    <h1>Lista de comprar</h1>
+    <h1>Lista de Tarefas</h1>
 
-    <form id="formulario">
-        <label for="item">Item:</label>
-        <input type="text" name="item" id="item" required placeholder="Insira o item desejado">
-
-        <input type="submit" value="Adicionar" id="adicionar">
-        <input type="button" value="Remover" id="remover">
-    </form>
-
-    <ul id="lista">
-    </ul>
+    <!-- Input para adicionar tarefas -->
+    <main>
+        <form>
+            <div class="textInputWrapper">
+                <input placeholder="Insira o item desejado" type="text" class="textInput" id="tarefa">
+            </div>
+            <button type="button" class="button" id="adicionar">
+                <span class="button__text">Add Item</span>
+                <span class="button__icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" height="24"
+                        fill="none" class="svg">
+                        <line y2="19" y1="5" x2="12" x1="12"></line>
+                        <line y2="12" y1="12" x2="19" x1="5"></line>
+                    </svg></span>
+            </button>
+        </form>
+        <!-- Lista de tarefas -->
+        <div class="flex">
+            <ul id="listaTarefas">
+            </ul>
+        </div>
+    </main>
 
     <script src="script.js"></script>
 </body>
