@@ -14,19 +14,36 @@ function adicionarItem() {
     let item = itemInput.value;
     item = formatarItem(item);
 
-    // Verifica se o item está vazia
+    // Verifica se o item está vazio
     if (item === "") {
         alert("Por favor, digite algum item.");
+        itemInput.focus();
+        itemInput.select();
         return;
     }
-    // Recupera as itens existentes do localStorage ou inicializa uma lista vazia
+
+    // Recupera os itens existentes do localStorage ou inicializa uma lista vazia
     const itens = JSON.parse(localStorage.getItem("itens")) || [];
-    // Adiciona a nova item à lista
+
+    // Verifica se o item já existe na lista
+    const index = itens.indexOf(item);
+    if (index !== -1) {
+        alert(`Este item já foi adicionado à lista. Ele está na posição número ${index + 1}.`);
+        itemInput.value = "";
+        itemInput.focus();
+        itemInput.select();
+        return;
+    }
+
+    // Adiciona o novo item à lista
     itens.push(item);
+
     // Atualiza o localStorage com a lista atualizada de itens
     localStorage.setItem("itens", JSON.stringify(itens));
+
     // Limpa o campo de entrada
     itemInput.value = "";
+
     // Atualiza a lista de itens exibida na página
     exibirItens();
 }
@@ -35,8 +52,10 @@ function adicionarItem() {
 function exibirItens() {
     // Limpa a lista atual
     listaitens.innerHTML = "";
+
     // Recupera as itens do localStorage
     const itens = JSON.parse(localStorage.getItem("itens")) || [];
+
     // Adiciona cada item à lista usando um loop forEach
     itens.forEach((item, i) => {
         const itemElement = document.createElement("li");
@@ -49,12 +68,15 @@ function exibirItens() {
 function deletarUltimoItem() {
     // Recupera as itens existentes do localStorage ou inicializa uma lista vazia
     const itens = JSON.parse(localStorage.getItem("itens")) || [];
+
     // Verifica se há itens para remover
     if (itens.length > 0) {
         // Remova o último item da lista
         itens.pop();
+
         // Atualiza o localStorage com a lista atualizada de itens
         localStorage.setItem("itens", JSON.stringify(itens));
+
         // Atualiza a lista de itens exibida na página
         exibirItens();
     } else {
@@ -64,8 +86,10 @@ function deletarUltimoItem() {
 
 // Adiciona um ouvinte de eventos para o botão "Adicionar"
 document.getElementById("adicionar").addEventListener("click", adicionarItem);
+
 // Adiciona um ouvinte de eventos para o botão "Deletar"
 document.getElementById("button2").addEventListener("click", deletarUltimoItem);
+
 // Adiciona um ouvinte de eventos para o campo de entrada para adicionar uma item ao pressionar Enter
 document.getElementById("item").addEventListener("keypress", function (event) {
     if (event.key === "Enter") {
