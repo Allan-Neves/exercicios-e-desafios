@@ -16,13 +16,13 @@ h1 {
     text-align: center;
     font-family: 'Raleway', sans-serif;
     padding: 10px;
-    background-color: #353535;
+    background-color: #252525;
     color: rgb(245, 245, 245);
     border-bottom: 2px solid var(--accent-color);
 }
 
 main {
-    width: 325px;
+    width: 500px;
     margin: 0 auto;
 }
 
@@ -34,6 +34,7 @@ form {
 }
 
 .textInputWrapper {
+  color: rgba(255, 255, 255, 0.582);
     position: relative;
     width: 180px;
     margin: 12px 5px;
@@ -124,6 +125,10 @@ form {
     opacity: 0;
   }
   
+
+
+
+  
 .button {
   position: relative;
   width: 150px;
@@ -181,6 +186,78 @@ form {
 
 .button:active {
   border: 1px solid #2e8644;
+}
+
+
+#button2 {
+  margin-left: 3px;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  background: red;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+  background: #e62222;
+ }
+ 
+ #button2, #button2 span {
+  transition: 200ms;
+ }
+ 
+ #button2 .text {
+  transform: translateX(35px);
+  color: white;
+  font-weight: bold;
+ }
+ 
+ #button2 .icon {
+  border-radius: 5px;
+  position: absolute;
+  background-color: #d11b1b;
+  transform: translateX(110px);
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ 
+ #button2 svg {
+  width: 15px;
+  fill: #eee;
+ }
+ 
+ #button2:hover {
+  background: rgb(219, 43, 43);
+ }
+ 
+ #button2:hover .text {
+  color: transparent;
+ }
+ 
+ #button2:hover .icon {
+  width: 150px;
+  border-left: none;
+  transform: translateX(0);
+ }
+ 
+ #button2:focus {
+  outline: none;
+ }
+ 
+ button:active .icon svg {
+  transform: scale(0.8);
+ }
+
+ .flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
 }
 
 ul {
