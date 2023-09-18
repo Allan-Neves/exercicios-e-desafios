@@ -19,14 +19,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-    opacity: 0;
+    max-width: 98%;
     margin: 0 auto;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     top: 100%;
     transform: translateY(-115%);
-    max-width: 98%;
+    opacity: 0;
 }
 
 .btn {
