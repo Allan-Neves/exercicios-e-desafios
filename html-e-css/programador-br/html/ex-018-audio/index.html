@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Áudio</title>
+</head>
+
+<body>
+
+    <div id="container">
+        <audio id="audio">
+            <source src="audios/rap-itachi.ogg" type="audio/ogg">
+            <source src="audios/rap-itachi.mp3" type="audio/mpeg">
+        </audio>
+
+        <div id="controle">
+            <img class="btn" onclick="retroceder()" style="border-radius: 10px 0 0 10px;" src="assets/-15s.png" alt="Voltar 15 segundos" title="Voltar 15 segundos">
+            <img class="btn" onclick="avancar()" src="assets/+15s.png" alt="Avançar 15 segundos" title="Avançar 15 segundos">
+            <img class="btn" onclick="diminuirVolume()" src="assets/-velocidade.png" alt="Menos volume" title="Menos volume">
+            <img class="btn" onclick="aumentarVolume()" src="assets/+velocidade.png" alt="Mais volume" title="Mais volume">
+            <img class="btn" onclick="play()" id="btn-play" src="assets/play.png" alt="Tocar" title="Tocar">
+            <img class="btn" onclick="stop()" style="border-radius: 0 10px 10px 0;" src="assets/stop.png" alt="Parar" title="Parar">
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

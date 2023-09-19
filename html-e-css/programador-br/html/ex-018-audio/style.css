@@ -1,0 +1,35 @@
+#container {
+    margin: 30px auto;
+    width: 90%;
+    max-width: 2000px;
+    height: 80vh;
+    background-image: url("assets/chuva-itachi.gif");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#controle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    opacity: 0;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.315);
+    width: 40px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 450px) {
+    .btn {
+        width: 28px;
+        padding: 6px;
+    }
+}

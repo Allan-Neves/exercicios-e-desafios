@@ -55,6 +55,7 @@ function stop() {
 
     btnPlay.src = `assets/play.png`;
     btnPlay.setAttribute("title", "Tocar");
+    tocando = !tocando;
 }
 
 function diminuirVolume() {
