@@ -11,12 +11,12 @@ container.addEventListener("mouseleave", ocultarControles);
 
 function mostrarControles() {
     controle.style.opacity = 1;
-    controle.style.transition = "all .3s"
+    controle.style.transition = "all .3s";
 }
 
 function ocultarControles() {
     controle.style.opacity = 0;
-    controle.style.transition = "all 1s"
+    controle.style.transition = "all 1s";
 }
 
 function retroceder() {
