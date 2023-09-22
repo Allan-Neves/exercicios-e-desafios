@@ -24,7 +24,7 @@ header ~ p {
   background-color: red;
 }  */
 
-[width='60'] {
+[width="60"] {
   background-color: rosybrown;
 }
 
@@ -38,7 +38,6 @@ header ~ p {
 
 [title~="título"] {
   background-color: brown;
-
 }
 
 [title$="1"] {
