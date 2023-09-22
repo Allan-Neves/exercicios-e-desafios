@@ -1,0 +1,28 @@
+:root {
+  --corParagrafo: blue;
+  --tamanhoFonte: 55px;
+
+  --tamanhoQuadrado: 200px;
+}
+
+.p2 {
+  color: var(--corParagrafo);
+  font-size: 25px;
+}
+
+.p3 {
+  font-size: var(--tamanhoFonte);
+  color: var(--corParagrafo);
+}
+
+.quadrado1 {
+  width: var(--tamanhoQuadrado);
+  height: var(--tamanhoQuadrado);
+  background-color: black;
+}
+
+.quadrado2 {
+  width: var(--tamanhoQuadrado);
+  height: var(--tamanhoQuadrado);
+  background-color: purple;
+}

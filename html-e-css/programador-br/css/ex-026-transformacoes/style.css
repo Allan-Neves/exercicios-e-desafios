@@ -1,0 +1,12 @@
+/* img {
+  width: 420px;
+  transform: skew(-30deg, 40deg) scale(0.5, 2);
+} */
+
+div {
+  width: 420px;
+  transform: skew(-30deg, 40deg) scale(0.5, 2);
+  width: 420px;
+  height: 300px;
+  background-color: beige;
+}

@@ -1,7 +1,7 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-color: red;
+  margin: 0;
+  padding: 0;
+  background-color: red;
 }
 
 /* .container {
@@ -27,8 +27,8 @@ body {
 } */
 
 .primeira {
-    width: calc(100% - 120px);
-    height: 100px;
-    background-color: blue;
-    margin: 0 auto;
+  width: calc(100% - 120px);
+  height: 100px;
+  background-color: blue;
+  margin: 0 auto;
 }
