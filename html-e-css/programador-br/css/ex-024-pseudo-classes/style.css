@@ -1,0 +1,39 @@
+/* input:focus {
+  color: red;
+} */
+
+/* li:first-child {
+  color: blue;
+} */
+
+/* li:first-of-type(2) {
+  color: blue;
+} */
+
+/* li:nth-child(4) {
+  color: blue;
+} */
+
+/* li:nth-last-child(2) {
+  color: blue;
+} */
+
+/* li:nth-of-type(even) {
+  background-color: beige;
+}  */
+
+li:nth-of-type(3n - 1) {
+  background-color: gray;
+  color: white;
+} 
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+}
