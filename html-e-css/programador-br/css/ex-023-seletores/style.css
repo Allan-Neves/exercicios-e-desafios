@@ -1,0 +1,50 @@
+/* * {
+  background-color: green;
+}
+
+div, .p2 {
+  color: white;
+  background-color: blue;
+  padding: 3px;
+}
+
+#head > p {
+  color: white;
+  background-color: blue;
+  padding: 3px;
+}
+
+#head + p {
+  color: white;
+  background-color: blue;
+  padding: 3px;
+}
+
+header ~ p {
+  background-color: red;
+}  */
+
+[width='60'] {
+  background-color: rosybrown;
+}
+
+[title~="título"] {
+  background-color: brown;
+}
+
+[title^="1"] {
+  background-color: blue;
+}
+
+[title~="título"] {
+  background-color: brown;
+
+}
+
+[title$="1"] {
+  background-color: purple;
+}
+
+[title*="t"] {
+  background-color: green;
+}
