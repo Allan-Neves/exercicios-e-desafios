@@ -1,0 +1,38 @@
+h1::first-letter {
+  font-size: 5rem;
+  color: red;
+}
+
+p::first-letter {
+  font-size: 2rem;
+}
+
+p::first-line {
+  color: rgb(0, 140, 255);
+}
+
+p::selection {
+  background-color: yellow;
+  color: orange;
+}
+
+li {
+  padding: 5px;
+  list-style: none;
+  /* list-style-image: url(./OIP.jpg); */
+}
+
+li::before {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url(./OIP.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+li::after {
+  content: "- FIM";
+}
