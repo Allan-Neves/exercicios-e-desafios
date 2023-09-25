@@ -1,0 +1,28 @@
+.container {
+    background-color: darkgrey;
+    height: 400px;
+    color: white;
+    font-size: 30px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.r1 {
+    background-color: red;
+}
+
+.r2 {
+    background-color: blue;
+}
+
+.r3 {
+    background-color: green;
+}
+
+.rect {
+    width: 100px;
+    height: 100px;
+}
