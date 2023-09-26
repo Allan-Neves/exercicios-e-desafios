@@ -1,0 +1,22 @@
+.container {
+  height: 500px;
+  background-color: darkgray;
+  color: white;
+  font-size: 20px;
+}
+
+.r1 {
+  background-color: red;
+}
+
+.r2 {
+  background-color: blue;
+}
+
+.r3 {
+  background-color: green;
+}
+
+.rect {
+  height: 50px;
+}
