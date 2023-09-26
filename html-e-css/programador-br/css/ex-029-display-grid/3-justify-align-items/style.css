@@ -2,10 +2,15 @@
   background-color: darkgray;
   color: white;
   font-size: 20px;
+  padding: 10px;
+  height: 500px;
 
   display: grid;
-  grid-template: 100px 100px / 1fr 2fr 1fr;
+  grid-template: auto auto / auto auto auto;
   gap: 10px;
+
+  justify-items: center;
+  align-items: center;
 }
 
 .r1 {
