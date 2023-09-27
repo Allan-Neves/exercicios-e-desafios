@@ -6,7 +6,7 @@
 
   display: grid;
   gap: 4px;
-  grid-template: auto auto auto auto / auto auto auto auto auto auto
+  grid-template: auto auto auto auto / auto auto auto auto auto auto;
 }
 
 .r1 {
@@ -37,7 +37,7 @@
   grid-column-end: span 4;
 }
 
-.item4 { 
+.item4 {
   grid-column-start: 4;
   grid-column-end: 7;
 }
