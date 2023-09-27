@@ -1,8 +1,16 @@
 .container {
-  height: 500px;
   background-color: darkgray;
   color: white;
   font-size: 20px;
+  padding: 10px;
+
+  display: grid;
+  gap: 3px;
+  grid-template-areas:
+    "a2 a2 a2 a2 a2 a2"
+    "a1 a1 a3 a3 a3 a3"
+    "a5 a5 a5 a4 a4 a4"
+    "a6 a6 a6 a6 a6 a6";
 }
 
 .r1 {
@@ -17,6 +25,27 @@
   background-color: green;
 }
 
-.rect {
-  height: 50px;
+.item1 {
+  grid-area: a1;
+}
+
+.item2 {
+  grid-area: a2;
+}
+
+.item3 {
+  grid-area: a3;
+  height: 100px;
+}
+
+.item4 {
+  grid-area: a4;
+}
+
+.item5 {
+  grid-area: a5;
+}
+
+.item6 {
+  grid-area: a6;
 }
