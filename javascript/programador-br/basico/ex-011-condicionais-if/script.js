@@ -16,24 +16,30 @@ if (idade >= 18 || idade < 70) {
 	console.log("Volte futuramente ou em outra vida.");
 }
 
-console.log("========================")
+console.log("========================");
 
-var nota = parseFloat(prompt("Digite a nota do(a) aluno(a)"))
+var nota = parseFloat(prompt("Digite a nota do(a) aluno(a)"));
 
 if (nota === 10) {
-    console.log("Aprovado com Distinção")
+	console.log("Aprovado com Distinção");
 } else if (nota >= 7) {
-    console.log("Aprovado")
+	console.log("Aprovado");
 } else {
-    console.log("Reprovado")
+	console.log("Reprovado");
 }
 
-console.log("========================")
+console.log("========================");
 
 var letra = prompt("Digite uma letra");
 
-if (letra === "a" || letra === "b" || letra === "c" || letra === "d" || letra === "e") {
-    console.log("A letra digitada é uma vogal.")
+if (
+	letra === "a" ||
+	letra === "b" ||
+	letra === "c" ||
+	letra === "d" ||
+	letra === "e"
+) {
+	console.log("A letra digitada é uma vogal.");
 } else {
-    console.log("A letra digitada é uma consoante.")
+	console.log("A letra digitada é uma consoante.");
 }

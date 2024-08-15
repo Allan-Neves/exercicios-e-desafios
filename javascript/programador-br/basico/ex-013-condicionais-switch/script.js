@@ -28,5 +28,5 @@ switch (conceito) {
 
 	default:
 		console.log("Houve algum erro!");
-        break;
+		break;
 }

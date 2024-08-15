@@ -19,8 +19,7 @@ console.log("Idade é maior que 20: ", maior20);
 console.log("Idade é menor que 30: ", menor30);
 console.log("Idade está entre 20 e 30: ", entre);
 
-
-console.log("====================")
+console.log("====================");
 
 // ||
 var idade1 = 35;
@@ -34,8 +33,7 @@ console.log("Idade é menor que 10: ", menor10);
 console.log("Idade é maior que 65: ", maior65);
 console.log("Tem direito a gratuidade: ", gratuidade);
 
-
-console.log("====================")
+console.log("====================");
 
 // Negativo
 var idade2 = 19;

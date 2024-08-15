@@ -2,7 +2,6 @@
 
 // alert("Bom dia, " + nome + "!");
 
-
 var numero = parseFloat(prompt("Digite um número"));
 var dobro = numero + numero;
 

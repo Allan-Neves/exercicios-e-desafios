@@ -8,7 +8,6 @@
 -- Decremento
 */
 
-
 // Adição
 var adc1 = 10;
 var adc2 = 10;
