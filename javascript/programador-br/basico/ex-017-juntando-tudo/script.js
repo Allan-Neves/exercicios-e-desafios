@@ -8,8 +8,8 @@ function CalcularMedia(n1, n2) {
 	return (n1 + n2) / 2;
 }
 
-function determinarSituacao(media) {
-	var situacao = media > 7 ? "Aprovado" : "Reprovado";
+function determinarSituacao(m) {
+	var situacao = m > 7 ? "Aprovado" : "Reprovado";
 
 	return situacao;
 }
