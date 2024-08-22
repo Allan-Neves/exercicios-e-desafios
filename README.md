@@ -27,6 +27,10 @@ Neste repositório, você vai encontrar os arquivos das aulas dos cursos que eu 
   - `programador-br:` contém os arquivos das aulas do curso [Programador BR](https://programadorbr.com/).
 
   - `outros:` contém os arquivos de exercícios que eu encontro no YouTube ou que tenho alguma dúvida específica e vejo vídeo-aulas avulsas.
+ 
+- python: contém os arquivos das aulas dos meus cursos de JavaScript que estou fazendo ou já fiz. Dentro desta pasta, há subpastas para cada curso:
+
+  - `curso-em-video:` curso de Python do Gustavo Guanabara [Curso em Vídeo](https://www.cursoemvideo.com/curso/python/).
 
 Nesses cursos, eu aprendi e estou aprendendo sobre os conceitos básicos e intermediários de `git, github, html e css, como criar páginas web responsivas e dinâmicas, como usar o git para versionar e gerenciar os meus projetos, como usar o github para hospedar e compartilhar os meus códigos, entre outras coisas. Agora estou iniciando meus aprendizados em JavaScript`
 
