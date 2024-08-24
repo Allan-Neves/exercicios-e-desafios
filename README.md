@@ -1,4 +1,4 @@
-# Meu repositório de estudos sobre git, github, html e css
+# Meu repositório de estudos.
 
 Olá, eu me chamo Allan e este é o meu repositório onde eu compartilho os meus projetos sobre os meus estudos. Eu sou um estudante front-end e estou sempre buscando aprender e aprimorar as minhas habilidades nessas tecnologias.
 
