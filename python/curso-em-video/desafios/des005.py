@@ -1,5 +1,6 @@
 numero = int(input('Digite um número: '))
 
+print('-' * 20)
 print(
     f'A tabuada de {numero} é: \n'
     f'{numero} x 1 = {numero * 1} \n'
@@ -13,3 +14,4 @@ print(
     f'{numero} x 9 = {numero * 9} \n'
     f'{numero} x 10 = {numero * 10} \n'
     )
+print('-' * 20)
