@@ -12,3 +12,7 @@
 let tp = document.getElementsByTagName("p");
 
 console.log(tp);
+
+let paragrafo = document.getElementById("paragrafo-1");
+paragrafo.style = "color: blue";
+paragrafo.style.backgroundColor = "red";

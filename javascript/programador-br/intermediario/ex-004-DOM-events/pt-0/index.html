@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Events</title>
+
+    <style>
+        div {
+            display: inline-block;
+            padding: 20px;
+            margin-top: 30px;
+            background-color: cornflowerblue;
+            font-size: 2rem;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1 onclick="h1click()" id="title1">Clique em mim</h1>
+
+    <!-- <input type="text" onchange="changeH1(this)"> -->
+    <input type="text" oninput="changeH1(this)" style="display: block;">
+
+
+    <div onclick="hideH1()">Click</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

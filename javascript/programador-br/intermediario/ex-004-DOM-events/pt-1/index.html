@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Events</title>
+
+    <style>
+        img {
+            width: 500px;
+            margin-bottom: 30px;
+        }
+
+        div {
+            display: inline;
+            padding: 20px;
+            background-color: cornflowerblue;
+            font-size: 2rem;
+            color: white;
+        }
+    </style>
+</head>
+
+<body onload="console.log('Página completamente carregada.')">
+
+    <img src="https://png.pngtree.com/back_origin_pic/04/06/56/c16a17e4484e1bdf02d1d83fdc19461c.jpg" alt="">
+
+    <br>
+
+    <div onmouseover="onOver(this)" onmouseout="onOut(this)">Click</div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
